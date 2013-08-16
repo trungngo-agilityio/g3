@@ -1,5 +1,5 @@
 var log = require('./log'),
-	oop = require('./assert');
+	oop = require('./oop');
 
 // g3 frameworks namespace
 module.exports = {
@@ -17,10 +17,13 @@ module.exports = {
 	},
 
 	data: {
+
 		Enum : require('./enum'),
 		Event : require('./event'),
 		BitFlags : require('./bit-flags'),
 		ArrayHelper : require('./array-helper'),
+		FlipQueue : require('./flip-queue'),
+		Sequencer : require('./sequencer'),
 		LinkedList : require('./linked-list'),
 		StringBuilder : require('./string-builder'),
 		StringHelper : require('./string-helper'),

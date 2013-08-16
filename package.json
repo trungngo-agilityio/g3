@@ -1,0 +1,22 @@
+{
+  "name": "node-g3",
+  "version": "0.0.1",
+  "description": "G3 Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trungngo/g3.git"
+  },
+  "keywords": [
+    "node",
+    "g3",
+    "aop",
+    "oop",
+    "util"
+  ],
+  "author": "Trung Ngo",
+  "license": "BSD"
+}
